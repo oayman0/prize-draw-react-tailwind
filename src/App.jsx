@@ -122,7 +122,7 @@ const App = () => {
           </div>
 
           {/* Winner Display Area */}
-          <div className="flex-1 flex flex-col items-center justify-center w-full min-h-[1  00px]">
+          <div className="flex-1 max-h-[250px] flex flex-col items-center justify-center w-full">
             {displayNumber ? (
               <div className="text-center">
                 <Trophy 
