@@ -96,7 +96,7 @@ const App = () => {
             </button>
             
             <div className="text-center">
-              <p className="text-sm text-slate-500 font-semibold uppercase tracking-wider">سحب العمرة</p>
+              <p className="text-sm text-slate-500 font-semibold uppercase tracking-wider">سحب العمرة على الجائزة رقم :</p>
               <h1 className="text-3xl font-extrabold text-blue-800">
                 {currentIndex} <span className="text-xl text-slate-400 font-medium">/ {TOTAL_PRIZES}</span>
               </h1>
@@ -117,12 +117,12 @@ const App = () => {
           <div className="mb-10 text-center">
             <p className="text-slate-500 mb-1 font-medium">أرقام البطاقات</p>
             <div className="inline-block bg-blue-50 border border-blue-100 text-blue-800 font-mono text-lg px-6 py-2 rounded-lg font-bold tracking-widest">
-              {startRange.toLocaleString()} - {endRange.toLocaleString()}
+              من {startRange.toLocaleString()} إلى {endRange.toLocaleString()}
             </div>
           </div>
 
           {/* Winner Display Area */}
-          <div className="flex-1 flex flex-col items-center justify-center w-full min-h-[200px]">
+          <div className="flex-1 flex flex-col items-center justify-center w-full min-h-[1  00px]">
             {displayNumber ? (
               <div className="text-center">
                 <Trophy 
