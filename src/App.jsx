@@ -74,7 +74,7 @@ const App = () => {
         {/* White Navbar */}
         <nav className="bg-white border-b border-gray-100 py-2 flex justify-center items-center shadow-sm sticky top-0 z-10">
           <img 
-            src="src/assets/fib-logo.png" 
+            src="/fib-logo.png" 
             alt="Faisal Logo" 
             className="h-20 object-contain"
           />
