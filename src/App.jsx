@@ -96,7 +96,7 @@ const App = () => {
             </button>
             
             <div className="text-center">
-              <p className="text-sm text-slate-500 font-semibold uppercase tracking-wider">قرعة العمرة</p>
+              <p className="text-sm text-slate-500 font-semibold uppercase tracking-wider">سحب العمرة</p>
               <h1 className="text-3xl font-extrabold text-blue-800">
                 {currentIndex} <span className="text-xl text-slate-400 font-medium">/ {TOTAL_PRIZES}</span>
               </h1>
