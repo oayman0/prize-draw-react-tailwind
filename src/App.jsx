@@ -81,7 +81,8 @@ const App = () => {
         </nav>
 
         {/* Main Content Area */}
-        <main className="flex-1 flex flex-col items-center justify-start p-6 mt-4">
+        <main className="flex-1 max-h-[550px]  flex flex-col items-center justify-start p-6 mt-4
+        ">
           
           {/* Navigation & Prize Header */}
           <div className="w-full flex items-center justify-between mb-8 bg-slate-100 rounded-2xl p-2 shadow-inner">
