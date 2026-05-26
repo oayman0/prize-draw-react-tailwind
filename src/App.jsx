@@ -92,7 +92,7 @@ const App = () => {
                 (currentIndex === 1 || isDrawing) ? 'text-gray-300' : 'text-blue-600 hover:bg-white shadow-sm'
               }`}
             >
-              <ChevronLeft size={28} strokeWidth={2.5} />
+              <ChevronRight size={28} strokeWidth={2.5} />
             </button>
             
             <div className="text-center">
@@ -109,7 +109,7 @@ const App = () => {
                 (currentIndex === TOTAL_PRIZES || isDrawing) ? 'text-gray-300' : 'text-blue-600 hover:bg-white shadow-sm'
               }`}
             >
-              <ChevronRight size={28} strokeWidth={2.5} />
+              <ChevronLeft size={28} strokeWidth={2.5} />
             </button>
           </div>
 
