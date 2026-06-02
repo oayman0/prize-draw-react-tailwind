@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight, Trophy, RefreshCw } from 'lucide-react';
 
 const App = () => {
   // Constants
-  const TOTAL_CLIENTS = 302107;
+  const TOTAL_CLIENTS = 302127;
   const TOTAL_PRIZES = 50;
   const CHUNK_SIZE = Math.ceil(TOTAL_CLIENTS / TOTAL_PRIZES);
 
